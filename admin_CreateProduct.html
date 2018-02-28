@@ -1,0 +1,381 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>商品发布 - 大微淘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Loading Bootstrap -->
+    <link href="ku/FlatUI/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="ku/FlatUI/dist/css/flat-ui.css" rel="stylesheet">
+    <!-- ku -->
+    <link rel="stylesheet" href="ku/tipso/css/tipso.css">
+
+    <!-- csshelper -->
+    <link rel="stylesheet" href="css/AnimateHelper.css">
+    <link rel="stylesheet" href="css/hoverHelper.css">
+    <link rel="stylesheet" href="css/ImgFilterHelper.css">
+    <link rel="stylesheet" href="css/CssHelper.css">
+    <link rel="stylesheet" href="css/ColorHelper.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="ku/FlatUI/dist/js/vendor/html5shiv.js"></script>
+      <script src="ku/FlatUI/dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background:#2ce3cf">
+    <!--发布商品-->
+    <div class="container">
+        <form action="#" method="post">
+            <div class="login-form mt50  p50 bs">
+                <h6 class="cr9 text-center mb50">商品发布</h6>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">商品链接</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="text" class="form-control login-field bg0 tip" value="" placeholder="商品链接" data-tipso="这里是提示文字" />
+                            <label class="login-field-icon fui-link" for="login-name"></label>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">活动类型</div>
+                    <div class="col-md-9">
+                        <div class="form-group tip dib" data-tipso="* 淘抢购、聚划算、美丽折优先审核<br/>* 大微淘精选网站置顶24小时，软件每日精选推荐及大微淘所有采集群展现。需额外888积分">
+                            <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">普通活动</label>
+                            <label class="radio dib mlr30"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">淘抢购</label>
+                            <label class="radio dib mr30"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">聚划算</label>
+                            <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">大微淘精选</label>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">商品类目</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <select class="form-control select select-primary" data-toggle="select">
+                                <option value="0" selected>女装</option>
+                                <option value="1" >母婴</option>
+                                <option value="2">化妆品</option>
+                                <option value="3">居家</option>
+                                <option value="4">鞋包配饰</option>
+                                <option value="5">美食</option>                                    
+                                <option value="6">文体车品</option>
+                                <option value="7">数码家电</option>
+                                <option value="8">男装</option>
+                                <option value="9">内衣</option>
+                                <option value="10">生鲜</option>
+                                <option value="11">高客单价</option>
+                            </select>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">精简标题</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="text" class="form-control login-field bg0" value="" />
+                            <label class="login-field-icon fui-new" for="login-name"></label>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">领券链接</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="text" class="form-control login-field bg0" value="" />
+                            <label class="login-field-icon fui-tag" for="login-name"></label>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">佣金类型</div>
+                    <div class="col-md-9">
+                        <div class="form-group tip dib" data-tipso="* 发布时默认选中为当前有效的最高佣金">
+                            <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">通用计划</label>
+                            <label class="radio dib mlr30"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">鹊桥高佣</label>
+                            <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">定向计划</label>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">开始时间</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="datetime-local" class="form-control login-field bg0 tip" value="" data-tipso="* 如需预告，请勿大于3天！如需马上开始，无需设置！" />
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">选择主图</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <input type="text" class="form-control login-field bg0" value="" id="mainPicture" />
+                            <label class="login-field-icon fui-image" for="login-name"></label>
+                            <ul class="flall mt10 m10all cpall" id="pictureul">
+                                <li class="o5 ohr10 o10"><img class="80px h80px" src="https://img.alicdn.com/imgextra/i4/133731647/TB262DOqd0opuFjSZFxXXaDNVXa_!!133731647.jpg" /></li>
+                                <li class="o5 ohr10"><img class="80px h80px" src="https://img.alicdn.com/imgextra/i4/133731647/TB262DOqd0opuFjSZFxXXaDNVXa_!!133731647.jpg" /></li>
+                                <li class="o5 ohr10"><img class="80px h80px" src="https://img.alicdn.com/imgextra/i4/133731647/TB262DOqd0opuFjSZFxXXaDNVXa_!!133731647.jpg" /></li>
+                            </ul>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">导购文案</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <textarea name="" id="" class="form-control login-field bg0 " style="resize:none;height:150px"></textarea>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 tar lh35 fs16" style="padding-right:50px">推广样式</div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <div class="dib tip" data-tipso="* 推荐使用长图或多图">
+                                <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">商品主图</label>
+                                <label class="radio dib mlr30"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">长图</label>
+                                <label class="radio dib"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">多图</label>
+                            </div>
+                            <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+
+                            <div class=" bg2 p20 br5 mt15 lh30">
+                                <h5 class="fs16 cr11"><span class="glyphicon glyphicon-exclamation-sign mr10 cr9"></span>重要提醒</h5>
+                                <ul>
+                                    <li>1、务必确保信息准确无误再提交，任何一项错误，直接拒绝！</li>
+                                    <li>2、请确保已经和商家对接清楚，切勿中途调整价格和佣金！</li>
+                                    <li>3、审核通过后，为了提升转化，建议优化“网站主图”和“群发主图”</li>
+                                    <li>4、中途商品有变化，请及时在线修改或者下架商品！</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" text-center mt30 mb50">
+                    <a class="btn btn-primary btn-lg plr50 br1000 tip" data-tipso="发布商品消耗10积分" href="#">发布商品</a>
+                </div>
+
+
+
+            </div>
+        </form>
+    </div>
+
+    <!--底部页脚-->
+    <div class="container-fluid mt100" style="background:#e1e6e9">
+        <div class="container p20 flall cr5 cr9-a ">
+            <p class="ws30">
+                <a class="crhr11" href="">帮助中心</a>
+                <a class="crhr11" href="" data-toggle="modal" data-target="#myModal">联系我们</a>
+            </p>
+            <p class="fr">Copyright © 2017 Davtao. All Rights Reserved</p>
+            <!--联系人弹出窗口-->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                            <p class="modal-title" id="myModalLabel">
+                                联系我们
+                            </p>
+                        </div>
+                        <div class="modal-body">
+                            联系方式：
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                提交更改
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--右侧导航-->
+    <div class="pf t0 b0 pt0 crWhite cr2-a rightnav">
+        <div class=" pa b0 r100 p10 dn ">
+            <div class=" w50px h50px bgWhite br1000 fui-list-numbered fs22 cr5 text-center lh40 pt2 b3 bss bcBlack10">
+            </div>
+        </div>
+        <ul class=" mb1all bt2all bssall bcBlack10all p10all plr15all tranall ">
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-home fs18 o5 "></span>
+                </div>
+                <div class="fs15 cr1-a lh30 ">
+                    <a href="./Home.html " class=" crhrWhite ">网站首页</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-user fs18 o5 "></span>
+                </div>
+                <div class="fs15 cr1-a lh30 ">
+                    <a href="./login.html " class=" crhrWhite ">登录</a>
+                    <a href="./register.html " class=" crhrWhite ">注册</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-edit fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_CreateProduct.html " class=" crhrWhite ">商品发布</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-cog fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ProductManagement.html " class=" crhrWhite ">商品管理</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-usd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_OauthAssistant.html " class=" crhrWhite ">高佣授权</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-euro fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ScoreRecord.html " class=" crhrWhite ">积分记录</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-hdd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ApiAssistant.html " class=" crhrWhite ">API助手</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-road fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_WebsiteAssistant.html " class=" crhrWhite ">建站助手</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-usd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_FinanceCenter.html " class=" crhrWhite ">财务中心</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <ul class=" pa b0 l0 r0  mb1all bt2all bssall bcBlack10all p10all plr15all tranall  ">
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-lock fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_PasswordModify.html " class=" crhrWhite ">密码修改</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-share fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href=" " class=" crhrWhite ">退出登录</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <style>
+        .rightnav {
+            right: -82px;
+            transition: right .5s;
+            background: #416588
+        }
+        
+        @media (max-width:992px) {
+            .rightnav {
+                right: -130px;
+            }
+            .rightnav>div {
+                display: block
+            }
+        }
+        
+        .rightnav:hover {
+            right: 0px
+        }
+    </style>
+
+    <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js "></script>
+    <script src="ku/FlatUI/dist/js/vendor/video.js "></script>
+    <script src="ku/FlatUI/dist/js/flat-ui.min.js "></script>
+    <script src="ku/FlatUI/docs/assets/js/application.js "></script>
+    <!--提示-->
+    <script src="ku/tipso/js/tipso.min.js "></script>
+    <script>
+        $(function() {
+            $('.tip').tipso({
+                useTitle: false,
+                position: 'right'
+            });
+        });
+    </script>
+    <!--scrollReveal-->
+    <script src="ku/scrollRevealjs/js/scrollReveal.js "></script>
+    <script>
+        $(function() {
+
+            window.scrollReveal = new scrollReveal({
+                reset: true,
+                move: '50px'
+            });
+            //点图片将图片地址赋值给input
+            $("#pictureul>li>img").click(function() {
+                var tis = $(this).attr("src");
+                $("#mainPicture").val(tis);
+
+            });
+        });
+    </script>
+</body>
+
+</html>

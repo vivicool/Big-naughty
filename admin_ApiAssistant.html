@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>API助手 - 大微淘</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Loading Bootstrap -->
+    <link href="ku/FlatUI/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Loading Flat UI -->
+    <link href="ku/FlatUI/dist/css/flat-ui.css" rel="stylesheet">
+    <!-- ku -->
+    <link rel="stylesheet" href="ku/tipso/css/tipso.css">
+
+    <!-- csshelper -->
+    <link rel="stylesheet" href="css/AnimateHelper.css">
+    <link rel="stylesheet" href="css/hoverHelper.css">
+    <link rel="stylesheet" href="css/ImgFilterHelper.css">
+    <link rel="stylesheet" href="css/CssHelper.css">
+    <link rel="stylesheet" href="css/ColorHelper.css">
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="ku/FlatUI/dist/js/vendor/html5shiv.js"></script>
+      <script src="ku/FlatUI/dist/js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body style="background:#2ce3cf">
+    <!--发布商品-->
+    <div class="container">
+        <div class="login-form mt50  p50 bs">
+            <h6 class="cr9 text-center mb30">API助手</h6>
+            <form action="#" method="post">
+                <div class="login-form ">
+                    <div class="form-group">
+                        <input type="text" class="form-control login-field bg0" style="font-size:15px" value="" placeholder="网站域名" id="login-name" />
+                        <label class="login-field-icon fui-clip" for="login-name"></label>
+                        <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control login-field bg0" style="font-size:15px" value="" placeholder="网站名称" id="login-name" />
+                        <label class="login-field-icon fui-new" for="login-name"></label>
+                        <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control login-field bg0" style="font-size:15px" value="" placeholder="淘宝联盟root.txt文本内容" id="login-name" />
+                        <label class="login-field-icon fui-document" for="login-name"></label>
+                        <p class="cr9 fs16 mt10 dn">* 我是错误提示</p>
+                    </div>
+                    <div class="row mt50">
+                        <div class="col-xs-2"></div>
+                        <div class="col-xs-4"><a class="btn btn-primary bc49 bchr48 btn-lg btn-block br1000 b2 bss bc43" href="#">提交</a></div>
+                        <div class="col-xs-4"><a class="btn btn-primary bchr48 btn-lg btn-block br1000 bgTransparent cr10 b2 bss bcBlack20" href="#">预览</a></div>
+                        <div class="col-xs-2"></div>
+                    </div>
+                </div>
+            </form>
+
+            <!--表格-->
+            <div class="table-responsive">
+                <table class="table mt30">
+                    <thead>
+                        <tr>
+                            <th>网站域名</th>
+                            <th>网站名称</th>
+                            <th>ROOT内容</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>davtao.com</td>
+                            <td>大微淘</td>
+                            <td><a class="tip" data-tipso="这里写短标题文字">查看</a></td>
+                            <td class="ws20">
+                                <a href="#" class="crhr11">编辑</a>
+                                <a href="#" class="crhr11">移除</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--提示-->
+            <div class=" bg2 p20 br5 mt30 lh30">
+                <h5 class="fs16 cr11"><span class="glyphicon glyphicon-exclamation-sign mr10 cr9"></span>重要提醒</h5>
+                <ul>
+                    <li>1.推广期间只需88元，一键生成网站，支持淘宝联盟淘口令api认证root文件审核。</li>
+                    <li>2.域名一经确认提交，不能变更； 提供网站仅作淘宝联盟API申请期间审核用，无其他用途</li>
+                    <li>3.网站名称可无限次随时修改</li>
+                    <li>4.root文本可在确认提交后补充填写，一旦填写保存再次修改需付费。</li>
+                    <li class="mt20">
+                        <p>【FAQ】为什么要设置API？ 阿里妈妈禁止免费淘口令API，导致群发卡顿，或没口令，所以需要设置个人API。</p>
+                        <p>【教程】<a href="#" target="_blank">http://ku2.meilizk.com/help3.php</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--底部页脚-->
+    <div class="container-fluid mt100" style="background:#e1e6e9">
+        <div class="container p20 flall cr5 cr9-a ">
+            <p class="ws30">
+                <a class="crhr11" href="">帮助中心</a>
+                <a class="crhr11" href="" data-toggle="modal" data-target="#myModal">联系我们</a>
+            </p>
+            <p class="fr">Copyright © 2017 Davtao. All Rights Reserved</p>
+            <!--联系人弹出窗口-->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                            <p class="modal-title" id="myModalLabel">
+                                联系我们
+                            </p>
+                        </div>
+                        <div class="modal-body">
+                            联系方式：
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                提交更改
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--右侧导航-->
+    <div class="pf t0 b0 pt0 crWhite cr2-a rightnav">
+        <div class=" pa b0 r100 p10 dn ">
+            <div class=" w50px h50px bgWhite br1000 fui-list-numbered fs22 cr5 text-center lh40 pt2 b3 bss bcBlack10">
+            </div>
+        </div>
+        <ul class=" mb1all bt2all bssall bcBlack10all p10all plr15all tranall ">
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-home fs18 o5 "></span>
+                </div>
+                <div class="fs15 cr1-a lh30 ">
+                    <a href="./Home.html " class=" crhrWhite ">网站首页</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-user fs18 o5 "></span>
+                </div>
+                <div class="fs15 cr1-a lh30 ">
+                    <a href="./login.html " class=" crhrWhite ">登录</a>
+                    <a href="./register.html " class=" crhrWhite ">注册</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-edit fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_CreateProduct.html " class=" crhrWhite ">商品发布</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-cog fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ProductManagement.html " class=" crhrWhite ">商品管理</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-usd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_OauthAssistant.html " class=" crhrWhite ">高佣授权</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-euro fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ScoreRecord.html " class=" crhrWhite ">积分记录</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-hdd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_ApiAssistant.html " class=" crhrWhite ">API助手</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-road fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_WebsiteAssistant.html " class=" crhrWhite ">建站助手</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-usd fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_FinanceCenter.html " class=" crhrWhite ">财务中心</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <ul class=" pa b0 l0 r0  mb1all bt2all bssall bcBlack10all p10all plr15all tranall  ">
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-lock fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href="./admin_PasswordModify.html " class=" crhrWhite ">密码修改</a>
+                </div>
+            </li>
+            <li class="flall bghr22 ">
+                <div class="pt5 w30px ">
+                    <span class="glyphicon glyphicon-share fs18 o5 "></span>
+                </div>
+                <div class="fs16 cr1-a lh30 ">
+                    <a href=" " class=" crhrWhite ">退出登录</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <style>
+        .rightnav {
+            right: -82px;
+            transition: right .5s;
+            background: #416588
+        }
+        
+        @media (max-width:992px) {
+            .rightnav {
+                right: -130px;
+            }
+            .rightnav>div {
+                display: block
+            }
+        }
+        
+        .rightnav:hover {
+            right: 0px
+        }
+    </style>
+
+    <script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js "></script>
+    <script src="ku/FlatUI/dist/js/vendor/video.js "></script>
+    <script src="ku/FlatUI/dist/js/flat-ui.min.js "></script>
+    <script src="ku/FlatUI/docs/assets/js/application.js "></script>
+    <!--提示-->
+    <script src="ku/tipso/js/tipso.min.js "></script>
+    <script>
+        $(function() {
+            $('.tip').tipso({
+                useTitle: false,
+                position: 'right'
+            });
+        });
+    </script>
+    <!--scrollReveal-->
+    <script src="ku/scrollRevealjs/js/scrollReveal.js "></script>
+    <script>
+        $(function() {
+
+            window.scrollReveal = new scrollReveal({
+                reset: true,
+                move: '50px'
+            });
+
+        });
+    </script>
+</body>
+
+</html>

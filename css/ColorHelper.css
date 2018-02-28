@@ -1,0 +1,236 @@
+﻿@charset "utf-8";
+::-webkit-scrollbar-thumb {background-color:#5EE713} 
+
+/*边框颜色*/
+.bcWhite,.bchrWhite:hover,.bcfsrWhite:focus,.bcWhiteall>*{border-color:#fff}
+.bcWhite005,.bchrWhite005:hover,.bchrWhite005:focus,.bcWhite005all>*{border-color:rgba(255,255,255,.05)}
+.bcWhite10,.bchrWhite10:hover,.bcfsWhite10:focus,.bcWhite10all>*{border-color:rgba(255,255,255,.10)}
+.bcWhite20,.bchrWhite20:hover,.bcfsWhite20:focus,.bcWhite20all>*{border-color:rgba(255,255,255,.20)}
+.bcWhite40,.bchrWhite40:hover,.bcfsWhite40:focus,.bcWhite40all>*{border-color:rgba(255,255,255,.40)}
+.bcWhite60,.bchrWhite60:hover,.bcfsWhite60:focus,.bcWhite60all>*{border-color:rgba(255,255,255,.60)}
+.bcWhite80,.bchrWhite80:hover,.bcfsWhite80:focus,.bcWhite80all>*{border-color:rgba(255,255,255,.80)}
+.bcBlack005,.bchrBlack005:hover,.bcfsBlack005:focus,.bcBlack005all>*{border-color:rgba(0,0,0,.05)}
+.bcBlack10,.bchrBlack10:hover,.bcfsBlack10:focus,.bcBlack10all>*{border-color:rgba(0,0,0,.10)}
+.bcBlack20,.bchrBlack20:hover,.bcfsBlack20:focus,.bcBlack20all>*{border-color:rgba(0,0,0,.20)}
+.bcBlack40,.bchrBlack40:hover,.bcfsBlack40:focus,.bcBlack40all>*{border-color:rgba(0,0,0,.40)}
+.bcBlack60,.bchrBlack60:hover,.bcfsBlack60:focus,.bcBlack60all>*{border-color:rgba(0,0,0,.60)}
+.bcBlack80,.bchrBlack80:hover,.bcfsBlack80:focus,.bcBlack80all>*{border-color:rgba(0,0,0,.80)}
+.bc0,.bchr0:hover,.bcfs0:focus,.bc0all>*{border-color:#fafafa}
+.bc1,.bchr1:hover,.bcfs1:focus,.bc1all>*{border-color:#f2f2f2}
+.bc2,.bchr2:hover,.bcfs2:focus,.bc2all>*{border-color:#e5e5e5}
+.bc3,.bchr3:hover,.bcfs3:focus,.bc3all>*{border-color:#d9d9d9}
+.bc4,.bchr4:hover,.bcfs4:focus,.bc4all>*{border-color:#ccc}
+.bc5,.bchr5:hover,.bcfs5:focus,.bc5all>*{border-color:#bfbfbf}
+.bc6,.bchr6:hover,.bcfs6:focus,.bc6all>*{border-color:#b2b2b2}
+.bc7,.bchr7:hover,.bcfs7:focus,.bc7all>*{border-color:#a6a6a6}
+.bc8,.bchr8:hover,.bcfs8:focus,.bc8all>*{border-color:#999}
+.bc9,.bchr9:hover,.bcfs9:focus,.bc9all>*{border-color:#7f7f7f}
+.bc10,.bchr10:hover,.bcfs10:focus,.bc10all>*{border-color:#666}
+.bc11,.bchr11:hover,.bcfs11:focus,.bc11all>*{border-color:#333}
+.bc12,.bchr12:hover,.bcfs12:focus,.bc12all>*{border-color:#ec4747}
+.bc13,.bchr13:hover,.bcfs13:focus,.bc13all>*{border-color:#cf3638}
+.bc14,.bchr14:hover,.bcfs14:focus,.bc14all>*{border-color:#dc4651}
+.bc15,.bchr15:hover,.bcfs15:focus,.bc15all>*{border-color:#b43f53}
+.bc16,.bchr16:hover,.bcfs16:focus,.bc16all>*{border-color:#fb1174}
+.bc17,.bchr17:hover,.bcfs17:focus,.bc17all>*{border-color:#d41465}
+.bc18,.bchr18:hover,.bcfs18:focus,.bc18all>*{border-color:#d41497}
+.bc19,.bchr19:hover,.bcfs19:focus,.bc19all>*{border-color:#ba1489}
+.bc20,.bchr20:hover,.bcfs20:focus,.bc20all>*{border-color:#b254ae}
+.bc21,.bchr21:hover,.bcfs21:focus,.bc21all>*{border-color:#940680}
+.bc22,.bchr22:hover,.bcfs22:focus,.bc22all>*{border-color:#223045}
+.bc23,.bchr23:hover,.bcfs23:focus,.bc23all>*{border-color:#04213b}
+.bc24,.bchr24:hover,.bcfs24:focus,.bc24all>*{border-color:#464564}
+.bc25,.bchr25:hover,.bcfs25:focus,.bc25all>*{border-color:#2a3a53}
+.bc26,.bchr26:hover,.bcfs26:focus,.bc26all>*{border-color:#48566d}
+.bc27,.bchr27:hover,.bcfs27:focus,.bc27all>*{border-color:#354052}
+.bc28,.bchr28:hover,.bcfs28:focus,.bc28all>*{border-color:#13557d}
+.bc29,.bchr29:hover,.bcfs29:focus,.bc29all>*{border-color:#0f4466}
+.bc30,.bchr30:hover,.bcfs30:focus,.bc30all>*{border-color:#5a5d8c}
+.bc31,.bchr31:hover,.bcfs31:focus,.bc31all>*{border-color:#3f406c}
+.bc32,.bchr32:hover,.bcfs32:focus,.bc32all>*{border-color:#3469af}
+.bc33,.bchr33:hover,.bcfs33:focus,.bc33all>*{border-color:#1a4f95}
+.bc34,.bchr34:hover,.bcfs34:focus,.bc34all>*{border-color:#337ab7}
+.bc35,.bchr35:hover,.bcfs35:focus,.bc35all>*{border-color:#005bac}
+.bc36,.bchr36:hover,.bcfs36:focus,.bc36all>*{border-color:#8991de}
+.bc37,.bchr37:hover,.bcfs37:focus,.bc37all>*{border-color:#2b75cc}
+.bc38,.bchr38:hover,.bcfs38:focus,.bc38all>*{border-color:#56ccc8}
+.bc39,.bchr39:hover,.bcfs39:focus,.bc39all>*{border-color:#1fb5ad}
+.bc40,.bchr40:hover,.bcfs40:focus,.bc40all>*{border-color:#469cab}
+.bc41,.bchr41:hover,.bcfs41:focus,.bc41all>*{border-color:#378494}
+.bc42,.bchr42:hover,.bcfs42:focus,.bc42all>*{border-color:#13d5af}
+.bc43,.bchr43:hover,.bcfs43:focus,.bc43all>*{border-color:#0fc698}
+.bc44,.bchr44:hover,.bcfs44:focus,.bc44all>*{border-color:#8e8e82}
+.bc45,.bchr45:hover,.bcfs45:focus,.bc45all>*{border-color:#78786c}
+.bc46,.bchr46:hover,.bcfs46:focus,.bc46all>*{border-color:#2ecc71}
+.bc47,.bchr47:hover,.bcfs47:focus,.bc47all>*{border-color:#27ae60}
+.bc48,.bchr48:hover,.bcfs48:focus,.bc48all>*{border-color:#68d168}
+.bc49,.bchr49:hover,.bcfs49:focus,.bc49all>*{border-color:#4ec34e}
+.bc50,.bchr50:hover,.bcfs50:focus,.bc50all>*{border-color:#abc617}
+.bc51,.bchr51:hover,.bcfs51:focus,.bc51all>*{border-color:#76c423}
+.bc52,.bchr52:hover,.bcfs52:focus,.bc52all>*{border-color:#ffd43e}
+.bc53,.bchr53:hover,.bcfs53:focus,.bc53all>*{border-color:#ffb510}
+.bc54,.bchr54:hover,.bcfs54:focus,.bc54all>*{border-color:#f39c12}
+.bc55,.bchr55:hover,.bcfs55:focus,.bc55all>*{border-color:#ff5910}
+.bc56,.bchr56:hover,.bcfs56:focus,.bc56all>*{border-color:#e67e22}
+.bc57,.bchr57:hover,.bcfs57:focus,.bc57all>*{border-color:#d35400}
+.bc58,.bchr58:hover,.bcfs58:focus,.bc58all>*{border-color:#776758}
+.bc59,.bchr59:hover,.bcfs59:focus,.bc59all>*{border-color:#635548}
+.bcTransparent,.bchrbcTransparent:hover,.bcfsbcTransparent:focus,.bcTransparentall>*{border-color:transparent}
+.bc-t-Transparent,.bchrbc-t-Transparent:hover,.bcfsbc-t-Transparent:focus,.bc-t-Transparentall>*{border-top-color:transparent}
+.bc-r-Transparent,.bchrbc-r-Transparent:hover,.bcfsbc-r-Transparent:focus,.bc-r-Transparentall>*{border-right-color:transparent}
+.bc-b-Transparent,.bchrbc-b-Transparent:hover,.bcfsbc-b-Transparent:focus,.bc-b-Transparentall>*{border-bottom-color:transparent}
+.bc-l-Transparent,.bchrbc-l-Transparent:hover,.bcfsbc-l-Transparent:focus,.bc-l-Transparentall>*{border-left-color:transparent}
+
+/*字体颜色*/
+.crWhite,.crhrWhite:hover,.crfsrWhite:focus,.crWhite-a a{color:#fff}
+.crWhite005,.crhrWhite005:hover,.crhrWhite005:focus,.crWhite005-a a{color:rgba(255,255,255,.05)}
+.crWhite10,.crhrWhite10:hover,.crfsWhite10:focus,.crWhite10-a a{color:rgba(255,255,255,.10)}
+.crWhite20,.crhrWhite20:hover,.crfsWhite20:focus,.crWhite20-a a{color:rgba(255,255,255,.20)}
+.crWhite40,.crhrWhite40:hover,.crfsWhite40:focus,.crWhite40-a a{color:rgba(255,255,255,.40)}
+.crWhite60,.crhrWhite60:hover,.crfsWhite60:focus,.crWhite60-a a{color:rgba(255,255,255,.60)}
+.crBlack,.crhrBlack:hover,.crfsBlack:focus,.crBlack-a a{color:#000}
+.crBlack005,.crhrBlack005:hover,.crfsBlack005:focus,.crBlack005-a a{color:rgba(0,0,0,.05)}
+.crBlack005,.crhrBlack005:hover,.crfsBlack005:focus,.crBlack005-a a{color:rgba(0,0,0,.05)}
+.crBlack10,.crhrBlack10:hover,.crfsBlack10:focus,.crBlack10-a a{color:rgba(0,0,0,.10)}
+.crBlack20,.crhrBlack20:hover,.crfsBlack20:focus,.crBlack20-a a{color:rgba(0,0,0,.20)}
+.crBlack40,.crhrBlack40:hover,.crfsBlack40:focus,.crBlack40-a a{color:rgba(0,0,0,.40)}
+.crBlack60,.crhrBlack60:hover,.crfsBlack60:focus,.crBlack60-a a{color:rgba(0,0,0,.60)}
+.crBlack80,.crhrBlack80:hover,.crfsBlack80:focus,.crBlack80-a a{color:rgba(0,0,0,.80)}
+.cr0,.crhr0:hover,.crfs0:focus,.cr0-a a{color:#fafafa}
+.cr1,.crhr1:hover,.crfs1:focus,.cr1-a a{color:#f2f2f2}
+.cr2,.crhr2:hover,.crfs2:focus,.cr2-a a{color:#e5e5e5}
+.cr3,.crhr3:hover,.crfs3:focus,.cr3-a a{color:#d9d9d9}
+.cr4,.crhr4:hover,.crfs4:focus,.cr4-a a{color:#ccc}
+.cr5,.crhr5:hover,.crfs5:focus,.cr5-a a{color:#bfbfbf}
+.cr6,.crhr6:hover,.crfs6:focus,.cr6-a a{color:#b2b2b2}
+.cr7,.crhr7:hover,.crfs7:focus,.cr7-a a{color:#a6a6a6}
+.cr8,.crhr8:hover,.crfs8:focus,.cr8-a a{color:#999}
+.cr9,.crhr9:hover,.crfs9:focus,.cr9-a a{color:#7f7f7f}
+.cr10,.crhr10:hover,.crfs10:focus,.cr10-a a{color:#666}
+.cr11,.crhr11:hover,.crfs11:focus,.cr11-a a{color:#333}
+.cr12,.crhr12:hover,.crfs12:focus,.cr12-a a{color:#ec4747}
+.cr13,.crhr13:hover,.crfs13:focus,.cr13-a a{color:#cf3638}
+.cr14,.crhr14:hover,.crfs14:focus,.cr14-a a{color:#dc4651}
+.cr15,.crhr15:hover,.crfs15:focus,.cr15-a a{color:#b43f53}
+.cr16,.crhr16:hover,.crfs16:focus,.cr16-a a{color:#fb1174}
+.cr17,.crhr17:hover,.crfs17:focus,.cr17-a a{color:#d41465}
+.cr18,.crhr18:hover,.crfs18:focus,.cr18-a a{color:#d41497}
+.cr19,.crhr19:hover,.crfs19:focus,.cr19-a a{color:#ba1489}
+.cr20,.crhr20:hover,.crfs20:focus,.cr20-a a{color:#b254ae}
+.cr21,.crhr21:hover,.crfs21:focus,.cr21-a a{color:#940680}
+.cr22,.crhr22:hover,.crfs22:focus,.cr22-a a{color:#223045}
+.cr23,.crhr23:hover,.crfs23:focus,.cr23-a a{color:#04213b}
+.cr24,.crhr24:hover,.crfs24:focus,.cr24-a a{color:#464564}
+.cr25,.crhr25:hover,.crfs25:focus,.cr25-a a{color:#2a3a53}
+.cr26,.crhr26:hover,.crfs26:focus,.cr26-a a{color:#48566d}
+.cr27,.crhr27:hover,.crfs27:focus,.cr27-a a{color:#354052}
+.cr28,.crhr28:hover,.crfs28:focus,.cr28-a a{color:#13557d}
+.cr29,.crhr29:hover,.crfs29:focus,.cr29-a a{color:#0f4466}
+.cr30,.crhr30:hover,.crfs30:focus,.cr30-a a{color:#5a5d8c}
+.cr31,.crhr31:hover,.crfs31:focus,.cr31-a a{color:#3f406c}
+.cr32,.crhr32:hover,.crfs32:focus,.cr32-a a{color:#3469af}
+.cr33,.crhr33:hover,.crfs33:focus,.cr33-a a{color:#1a4f95}
+.cr34,.crhr34:hover,.crfs34:focus,.cr34-a a{color:#337ab7}
+.cr35,.crhr35:hover,.crfs35:focus,.cr35-a a{color:#005bac}
+.cr36,.crhr36:hover,.crfs36:focus,.cr36-a a{color:#8991de}
+.cr37,.crhr37:hover,.crfs37:focus,.cr37-a a{color:#2b75cc}
+.cr38,.crhr38:hover,.crfs38:focus,.cr38-a a{color:#56ccc8}
+.cr39,.crhr39:hover,.crfs39:focus,.cr39-a a{color:#1fb5ad}
+.cr40,.crhr40:hover,.crfs40:focus,.cr40-a a{color:#469cab}
+.cr41,.crhr41:hover,.crfs41:focus,.cr41-a a{color:#378494}
+.cr42,.crhr42:hover,.crfs42:focus,.cr42-a a{color:#13d5af}
+.cr43,.crhr43:hover,.crfs43:focus,.cr43-a a{color:#0fc698}
+.cr44,.crhr44:hover,.crfs44:focus,.cr44-a a{color:#8e8e82}
+.cr45,.crhr45:hover,.crfs45:focus,.cr45-a a{color:#78786c}
+.cr46,.crhr46:hover,.crfs46:focus,.cr46-a a{color:#2ecc71}
+.cr47,.crhr47:hover,.crfs47:focus,.cr47-a a{color:#27ae60}
+.cr48,.crhr48:hover,.crfs48:focus,.cr48-a a{color:#68d168}
+.cr49,.crhr49:hover,.crfs49:focus,.cr49-a a{color:#4ec34e}
+.cr50,.crhr50:hover,.crfs50:focus,.cr50-a a{color:#abc617}
+.cr51,.crhr51:hover,.crfs51:focus,.cr51-a a{color:#76c423}
+.cr52,.crhr52:hover,.crfs52:focus,.cr52-a a{color:#ffd43e}
+.cr53,.crhr53:hover,.crfs53:focus,.cr53-a a{color:#ffb510}
+.cr54,.crhr54:hover,.crfs54:focus,.cr54-a a{color:#f39c12}
+.cr55,.crhr55:hover,.crfs55:focus,.cr55-a a{color:#ff5910}
+.cr56,.crhr56:hover,.crfs56:focus,.cr56-a a{color:#e67e22}
+.cr57,.crhr57:hover,.crfs57:focus,.cr57-a a{color:#d35400}
+.cr58,.crhr58:hover,.crfs58:focus,.cr58-a a{color:#776758}
+.cr59,.crhr59:hover,.crfs59:focus,.cr59-a a{color:#635548}
+
+/*背景色*/
+.bgTransparent,.bgTransparentall>*,.bghrTransparentallall>*:hover{background-color:transparent}
+.bgWhite,.bghrWhite:hover,.bgfsWhite:focus,.bgWhiteall>*,.bghrbgWhiteall>*:hover{background-color:#fff}
+.bgWhite05,.bghrWhite05:hover,.bgfsWhite05:focus,.bgWhite05all>*,.bghrbgWhite05all>*:hover{background-color:rgba(255,255,255,.05)}
+.bgWhite10,.bghrWhite10:hover,.bgfsWhite10:focus,.bgWhite10all>*,.bghrbgWhite10all>*:hover{background-color:rgba(255,255,255,.1)}
+.bgWhite20,.bghrWhite20:hover,.bgfsWhite20:focus,.bgWhite20all>*,.bghrbgWhite20all>*:hover{background-color:rgba(255,255,255,.2)}
+.bgWhite30,.bghrWhite30:hover,.bgfsWhite30:focus,.bgWhite30all>*,.bghrbgWhite30all>*:hover{background-color:rgba(255,255,255,.3)}
+.bgWhite40,.bghrWhite40:hover,.bgfsWhite40:focus,.bgWhite40all>*,.bghrbgWhite40all>*:hover{background-color:rgba(255,255,255,.4)}
+.bgWhite60,.bghrWhite60:hover,.bgfsWhite60:focus,.bgWhite60all>*,.bghrbgWhite60all>*:hover{background-color:rgba(255,255,255,.6)}
+.bgWhite80,.bghrWhite80:hover,.bgfsWhite80:focus,.bgWhite80all>*,.bghrbgWhite80all>*:hover{background-color:rgba(255,255,255,.8)}
+.bgBlack,.bghrBlack:hover,.bgfsBlack:focus,.bgBlackall>*,.bghrbgBlackall>*:hover{background-color:#000}
+.bgBlack10,.bghrBlack10:hover,.bgfsBlack10:focus,.bgBlack10all>*,.bghrbgBlack10all>*:hover{background-color:rgba(0,0,0,.1)}
+.bgBlack20,.bghrBlack20:hover,.bgfsBlack20:focus,.bgBlack20all>*,.bghrbgBlack20all>*:hover{background-color:rgba(0,0,0,.2)}
+.bgBlack30,.bghrBlack30:hover,.bgfsBlack30:focus,.bgBlack30all>*,.bghrbgBlack30all>*:hover{background-color:rgba(0,0,0,.3)}
+.bgBlack40,.bghrBlack40:hover,.bgfsBlack40:focus,.bgBlack40all>*,.bghrbgBlack40all>*:hover{background-color:rgba(0,0,0,.4)}
+.bgBlack60,.bghrBlack60:hover,.bgfsBlack60:focus,.bgBlack60all>*,.bghrbgBlack60all>*:hover{background-color:rgba(0,0,0,.6)}
+.bgBlack80,.bghrBlack80:hover,.bgfsBlack80:focus,.bgBlack80all>*,.bghrbgBlack80all>*:hover{background-color:rgba(0,0,0,.8)}
+.bg0,.bghr0:hover,.bgfs0:focus,.bg0all>*,.bghr0all>*:hover{background-color:#fafafa}
+.bg1,.bghr1:hover,.bgfs1:focus,.bg1all>*,.bghr1all>*:hover{background-color:#f2f2f2}
+.bg2,.bghr2:hover,.bgfs2:focus,.bg2all>*,.bghr2all>*:hover{background-color:#e5e5e5}
+.bg3,.bghr3:hover,.bgfs3:focus,.bg3all>*,.bghr3all>*:hover{background-color:#d9d9d9}
+.bg4,.bghr4:hover,.bgfs4:focus,.bg4all>*,.bghr4all>*:hover{background-color:#ccc}
+.bg5,.bghr5:hover,.bgfs5:focus,.bg5all>*,.bghr5all>*:hover{background-color:#bfbfbf}
+.bg6,.bghr6:hover,.bgfs6:focus,.bg6all>*,.bghr6all>*:hover{background-color:#b2b2b2}
+.bg7,.bghr7:hover,.bgfs7:focus,.bg7all>*,.bghr7all>*:hover{background-color:#a6a6a6}
+.bg8,.bghr8:hover,.bgfs8:focus,.bg8all>*,.bghr8all>*:hover{background-color:#999}
+.bg9,.bghr9:hover,.bgfs9:focus,.bg9all>*,.bghr9all>*:hover{background-color:#7f7f7f}
+.bg10,.bghr10:hover,.bgfs10:focus,.bg10all>*,.bghr10all>*:hover{background-color:#666}
+.bg11,.bghr11:hover,.bgfs11:focus,.bg11all>*,.bghr11all>*:hover{background-color:#333}
+.bg12,.bghr12:hover,.bgfs12:focus,.bg12all>*,.bghr12all>*:hover{background-color:#ec4747}
+.bg13,.bghr13:hover,.bgfs13:focus,.bg13all>*,.bghr13all>*:hover{background-color:#cf3638}
+.bg14,.bghr14:hover,.bgfs14:focus,.bg14all>*,.bghr14all>*:hover{background-color:#dc4651}
+.bg15,.bghr15:hover,.bgfs15:focus,.bg15all>*,.bghr15all>*:hover{background-color:#b43f53}
+.bg16,.bghr16:hover,.bgfs16:focus,.bg16all>*,.bghr16all>*:hover{background-color:#fb1174}
+.bg17,.bghr17:hover,.bgfs17:focus,.bg17all>*,.bghr17all>*:hover{background-color:#d41465}
+.bg18,.bghr18:hover,.bgfs18:focus,.bg18all>*,.bghr18all>*:hover{background-color:#d41497}
+.bg19,.bghr19:hover,.bgfs19:focus,.bg19all>*,.bghr19all>*:hover{background-color:#ba1489}
+.bg20,.bghr20:hover,.bgfs20:focus,.bg20all>*,.bghr20all>*:hover{background-color:#b254ae}
+.bg21,.bghr21:hover,.bgfs21:focus,.bg21all>*,.bghr21all>*:hover{background-color:#940680}
+.bg22,.bghr22:hover,.bgfs22:focus,.bg22all>*,.bghr22all>*:hover{background-color:#223045}
+.bg23,.bghr23:hover,.bgfs23:focus,.bg23all>*,.bghr23all>*:hover{background-color:#04213b}
+.bg24,.bghr24:hover,.bgfs24:focus,.bg24all>*,.bghr24all>*:hover{background-color:#464564}
+.bg25,.bghr25:hover,.bgfs25:focus,.bg25all>*,.bghr25all>*:hover{background-color:#2a3a53}
+.bg26,.bghr26:hover,.bgfs26:focus,.bg26all>*,.bghr26all>*:hover{background-color:#48566d}
+.bg27,.bghr27:hover,.bgfs27:focus,.bg27all>*,.bghr27all>*:hover{background-color:#354052}
+.bg28,.bghr28:hover,.bgfs28:focus,.bg28all>*,.bghr28all>*:hover{background-color:#13557d}
+.bg29,.bghr29:hover,.bgfs29:focus,.bg29all>*,.bghr29all>*:hover{background-color:#0f4466}
+.bg30,.bghr30:hover,.bgfs30:focus,.bg30all>*,.bghr30all>*:hover{background-color:#5a5d8c}
+.bg31,.bghr31:hover,.bgfs31:focus,.bg31all>*,.bghr31all>*:hover{background-color:#3f406c}
+.bg32,.bghr32:hover,.bgfs32:focus,.bg32all>*,.bghr32all>*:hover{background-color:#3469af}
+.bg33,.bghr33:hover,.bgfs33:focus,.bg33all>*,.bghr33all>*:hover{background-color:#1a4f95}
+.bg34,.bghr34:hover,.bgfs34:focus,.bg34all>*,.bghr34all>*:hover{background-color:#337ab7}
+.bg35,.bghr35:hover,.bgfs35:focus,.bg35all>*,.bghr35all>*:hover{background-color:#005bac}
+.bg36,.bghr36:hover,.bgfs36:focus,.bg36all>*,.bghr36all>*:hover{background-color:#8991de}
+.bg37,.bghr37:hover,.bgfs37:focus,.bg37all>*,.bghr37all>*:hover{background-color:#2b75cc}
+.bg38,.bghr38:hover,.bgfs38:focus,.bg38all>*,.bghr38all>*:hover{background-color:#56ccc8}
+.bg39,.bghr39:hover,.bgfs39:focus,.bg39all>*,.bghr39all>*:hover{background-color:#1fb5ad}
+.bg40,.bghr40:hover,.bgfs40:focus,.bg40all>*,.bghr40all>*:hover{background-color:#469cab}
+.bg41,.bghr41:hover,.bgfs41:focus,.bg41all>*,.bghr41all>*:hover{background-color:#378494}
+.bg42,.bghr42:hover,.bgfs42:focus,.bg42all>*,.bghr42all>*:hover{background-color:#13d5af}
+.bg43,.bghr43:hover,.bgfs43:focus,.bg43all>*,.bghr43all>*:hover{background-color:#0fc698}
+.bg44,.bghr44:hover,.bgfs44:focus,.bg44all>*,.bghr44all>*:hover{background-color:#8e8e82}
+.bg45,.bghr45:hover,.bgfs45:focus,.bg45all>*,.bghr45all>*:hover{background-color:#78786c}
+.bg46,.bghr46:hover,.bgfs46:focus,.bg46all>*,.bghr46all>*:hover{background-color:#2ecc71}
+.bg47,.bghr47:hover,.bgfs47:focus,.bg47all>*,.bghr47all>*:hover{background-color:#27ae60}
+.bg48,.bghr48:hover,.bgfs48:focus,.bg48all>*,.bghr48all>*:hover{background-color:#68d168}
+.bg49,.bghr49:hover,.bgfs49:focus,.bg49all>*,.bghr49all>*:hover{background-color:#4ec34e}
+.bg50,.bghr50:hover,.bgfs50:focus,.bg50all>*,.bghr50all>*:hover{background-color:#abc617}
+.bg51,.bghr51:hover,.bgfs51:focus,.bg51all>*,.bghr51all>*:hover{background-color:#76c423}
+.bg52,.bghr52:hover,.bgfs52:focus,.bg52all>*,.bghr52all>*:hover{background-color:#ffd43e}
+.bg53,.bghr53:hover,.bgfs53:focus,.bg53all>*,.bghr53all>*:hover{background-color:#ffb510}
+.bg54,.bghr54:hover,.bgfs54:focus,.bg54all>*,.bghr54all>*:hover{background-color:#f39c12}
+.bg55,.bghr55:hover,.bgfs55:focus,.bg55all>*,.bghr55all>*:hover{background-color:#ff5910}
+.bg56,.bghr56:hover,.bgfs56:focus,.bg56all>*,.bghr56all>*:hover{background-color:#e67e22}
+.bg57,.bghr57:hover,.bgfs57:focus,.bg57all>*,.bghr57all>*:hover{background-color:#d35400}
+.bg58,.bghr58:hover,.bgfs58:focus,.bg58all>*,.bghr58all>*:hover{background-color:#776758}
+.bg59,.bghr59:hover,.bgfs59:focus,.bg59all>*,.bghr59all>*:hover{background-color:#635548}
